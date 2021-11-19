@@ -1,7 +1,12 @@
 let r = new Date();
 document.getElementById("Fecha").innerHTML=r;
 
-document.getElementById('boton').addEventListener('click', validarFormulario)
+let boton = document.getElementById('boton')
+
+if(boton){
+  boton.addEventListener('click', validarFormulario)
+}
+
 // Funcion que valida el ingreso de los datos en el formulario de contacto
 function validarFormulario (e) {
     
@@ -27,4 +32,7 @@ function validarFormulario (e) {
     
     };
    
-    
+    /*** Esto es jQuery ***/
+    $(document).ready(function () {
+      $('#tablaProductos').DataTable();
+    });

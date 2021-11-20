@@ -1,0 +1,15 @@
+Grupo 2
+
+Integrantes:
+Patricio Pinto
+Diego Galvez
+Nicole Texier
+Angelo Valenzuela
+
+Resumen:
+
+Se implementa DataTable, en página productos.html, con el fin de visualizar el stock de productos en linea y se agrega librerías jQuery en archivo propio, ubicado en assets/js/jquery.js
+
+El código jQuery es agregado en assets/js/main.js
+
+URL: https://github.com/Patricio90/SprintGrupal_1

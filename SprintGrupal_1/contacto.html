@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/stylus.css">
+    <link rel="stylesheet" href="Iconos.css">
     <title>contactanos</title>
 </head>
 <body class="container-sm container-md container-lg">
@@ -36,19 +38,44 @@
     <main class="container-sm container-md container-lg">
         <h1>Contactanos</h1>
         <form>
+
             <label for="fname">Usuario:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Escribe tu nombre"><br>
+            <input type="text" id="lfname" name="fname" placeholder="Escribe tu nombre"><br>
             <label for="lemail">Correo:</label><br>
             <input type="email" id="lemail" name="lemail" placeholder="Escribe tu correo"><br>
             <label for="lmessage">Mensaje:</label><br>
+            <textarea name="lmessage" id="lmessage" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea><br> 
+            <button id="boton" value="Submit">Enviar</button>
+          </form>          
+
+            <label form="fname">Usuario:</label><br>
+            <input type="text" id="lfname" name="fname" placeholder="Escribe tu nombre" value="" onclick="CambiaBorde()"><br>
+            <label for="lemail">Correo:</label><br>
+            <input type="email" id="lemail" name="lemail" placeholder="Escribe tu correo"><br>
+            <label form="lmessage">Mensaje:</label><br>
             <textarea name="lmessage" id="lmessage" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea><br>
+
             <button value="Submit" onclick="validarFormulario()">Enviar</button>
+
+            <button class="boton" value="submit" onclick="validarFormulario()">Enviar</button>
+
         </form>          
+
     </main>
     <footer>
         <h3>Nuestro Equipo</h3>
         <p>©️TODOS LOS DERECHOS RESERVADOS</p>
         <p>Te lo vendo S.A 2021, Marin 014, Santiago de Chile &#128512;</p>
+        <div class="redes-container d-flex justify-content-center">
+        <p>Nuestras redes:</p>
+        <ul class="p-0.1">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </ul>
+      </div>
+    </div>
         <!-- <p id="datos"></p> -->
     <p id="Fecha"></p>
     </footer>

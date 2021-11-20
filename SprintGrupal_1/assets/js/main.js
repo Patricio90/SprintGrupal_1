@@ -15,7 +15,6 @@ function validarFormulario () {
      // Realizamos las validaciones de los Datos
      if ((lfname.length ==0) || (lemail.length==0) || (lmessage.length==0))
        {
-         alert('Aprende a leer y llena los datos completos');
          alert('Completar los datos');
        }
        else
